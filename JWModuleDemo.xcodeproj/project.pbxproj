@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		560536C5D5ECC0B9D3D0DE20 /* Pods_JWModuleDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98FBA27EBF01C87BFFE74A5 /* Pods_JWModuleDemo.framework */; };
 		94DDDD93231667ED00E6D12E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DDDD92231667ED00E6D12E /* AppDelegate.swift */; };
 		94DDDD95231667ED00E6D12E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DDDD94231667ED00E6D12E /* ViewController.swift */; };
 		94DDDD98231667ED00E6D12E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DDDD96231667ED00E6D12E /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1044B4D3FA43566214EB0963 /* Pods-JWModuleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWModuleDemo.release.xcconfig"; path = "Target Support Files/Pods-JWModuleDemo/Pods-JWModuleDemo.release.xcconfig"; sourceTree = "<group>"; };
 		94DDDD8F231667ED00E6D12E /* JWModuleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWModuleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94DDDD92231667ED00E6D12E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94DDDD94231667ED00E6D12E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		94DDDD99231667EE00E6D12E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94DDDD9C231667EE00E6D12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94DDDD9E231667EE00E6D12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF34FEE047C8C3FAD4CEE9D4 /* Pods-JWModuleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWModuleDemo.debug.xcconfig"; path = "Target Support Files/Pods-JWModuleDemo/Pods-JWModuleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F98FBA27EBF01C87BFFE74A5 /* Pods_JWModuleDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWModuleDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				560536C5D5ECC0B9D3D0DE20 /* Pods_JWModuleDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E43ABA7396EB489E8B7CED8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF34FEE047C8C3FAD4CEE9D4 /* Pods-JWModuleDemo.debug.xcconfig */,
+				1044B4D3FA43566214EB0963 /* Pods-JWModuleDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6E805E058B05BE5121649899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F98FBA27EBF01C87BFFE74A5 /* Pods_JWModuleDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		94DDDD86231667EC00E6D12E = {
 			isa = PBXGroup;
 			children = (
 				94DDDD91231667ED00E6D12E /* JWModuleDemo */,
 				94DDDD90231667ED00E6D12E /* Products */,
+				0E43ABA7396EB489E8B7CED8 /* Pods */,
+				6E805E058B05BE5121649899 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94DDDDA1231667EE00E6D12E /* Build configuration list for PBXNativeTarget "JWModuleDemo" */;
 			buildPhases = (
+				1AFF7155A4F5FBD4E8501316 /* [CP] Check Pods Manifest.lock */,
 				94DDDD8B231667ED00E6D12E /* Sources */,
 				94DDDD8C231667ED00E6D12E /* Frameworks */,
 				94DDDD8D231667ED00E6D12E /* Resources */,
+				8F80367FB47892951F3ECEC2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AFF7155A4F5FBD4E8501316 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWModuleDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F80367FB47892951F3ECEC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWModuleDemo/Pods-JWModuleDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JWNetworking/JWNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JWNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JWModuleDemo/Pods-JWModuleDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		94DDDD8B231667ED00E6D12E /* Sources */ = {
@@ -280,6 +354,7 @@
 		};
 		94DDDDA2231667EE00E6D12E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF34FEE047C8C3FAD4CEE9D4 /* Pods-JWModuleDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +372,7 @@
 		};
 		94DDDDA3231667EE00E6D12E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1044B4D3FA43566214EB0963 /* Pods-JWModuleDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

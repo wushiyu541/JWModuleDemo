@@ -1,0 +1,16 @@
+PODS:
+  - JWNetworking (0.1.0)
+
+DEPENDENCIES:
+  - JWNetworking (from `../Lib/JWNetworking`)
+
+EXTERNAL SOURCES:
+  JWNetworking:
+    :path: "../Lib/JWNetworking"
+
+SPEC CHECKSUMS:
+  JWNetworking: 38b2f0405ef6e11cfa5668d41726cbc2a4fd77ee
+
+PODFILE CHECKSUM: 11b5affbabeb53c2edde0f93a99ed9a2a1d15e43
+
+COCOAPODS: 1.6.1
