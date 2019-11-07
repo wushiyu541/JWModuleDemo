@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import JWLogingModule
 
 class ViewController: UIViewController {
-
+//    let ts: Test
+    let t: TestClass? = nil
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

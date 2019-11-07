@@ -7,87 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		403EC81BBDF2C859655DA960FB574B03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		66A436EB898F9B7BA7803A028A7759D4 /* Pods-JWModuleDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CB432D1F1DD21295AC5BA44687769C /* Pods-JWModuleDemo-dummy.m */; };
-		66B05CDBF86426502BB349F3981C2977 /* Pods-JWModuleDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E8FF10CE4C6DB3D5B708274E8605084 /* Pods-JWModuleDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E80764F9B6500EE6A6E6CC36E8DE759 /* JWNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B77BCB09ACC65EA0E8CEA76DCE3E6AD /* JWNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		977A8729FD2C6950AE46D8D0056AA41D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		CB9133D8685B59B941D0445279A598AD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB383BC25AFD81328AA3AE3FA93093 /* ReplaceMe.swift */; };
-		F63F5EB5A18EA6ACEF2306C5A7C256B7 /* JWNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C42C4E6824E4D652CABA79079340DF /* JWNetworking-dummy.m */; };
+		12714BD6951A907E27549F1E3C6D2C6B /* Pods-JWModuleDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E8FF10CE4C6DB3D5B708274E8605084 /* Pods-JWModuleDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F4F280F057F8514B95CD5B91252D4CE /* Pods-JWModuleDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CB432D1F1DD21295AC5BA44687769C /* Pods-JWModuleDemo-dummy.m */; };
+		648F3B60B7B1671826150E313F4803E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		898EA46A2958FCF104B3DE2D7D915FFD /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C367B090DC613715D8CDED535FC3B1 /* TestClass.swift */; };
+		A2BC23F365CF80F77433FA7DE90F181A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A72D1C0F89DB0E86B29153DF2FECA924 /* JWLogingModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4422CD5D781BE3B67503376D268FC52D /* JWLogingModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBDD32FA400BC8046EA1D40A0C2F9802 /* JWLogingModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E495264068A56FCFC0DC4D5BDED46946 /* JWLogingModule-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		402B04F28A6177625E3808840B5BDB9B /* PBXContainerItemProxy */ = {
+		FE1CA3D22BF93D9B9C60CAEFB5D79AED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6BDBC6F06E006E79239B115F654C0C9A;
-			remoteInfo = JWNetworking;
+			remoteGlobalIDString = 02F382F6B92C0F4AD30772ABA8A069E3;
+			remoteInfo = JWLogingModule;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B77BCB09ACC65EA0E8CEA76DCE3E6AD /* JWNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWNetworking-umbrella.h"; sourceTree = "<group>"; };
+		0922FEDDB6595523315C92407400B577 /* JWLogingModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JWLogingModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0B2EA1A5D8CDA25BF16739DC87F3A058 /* JWLogingModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JWLogingModule.framework; path = JWLogingModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1023B1280BD75CFC97A467DAF5AEA195 /* Pods-JWModuleDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWModuleDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		14CB432D1F1DD21295AC5BA44687769C /* Pods-JWModuleDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWModuleDemo-dummy.m"; sourceTree = "<group>"; };
-		27361A1584639BFB74BF554CC244641F /* JWNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JWNetworking.framework; path = JWNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5E59191CFE9C0BDBCF0A0E623524C2 /* FILE_LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = FILE_LICENSE; sourceTree = "<group>"; };
 		2FA0C79AF91430675D6FB2AA443E2BD8 /* Pods-JWModuleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWModuleDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		38DCB165BDFC14BC4049EFA07BCE062F /* Pods-JWModuleDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWModuleDemo-frameworks.sh"; sourceTree = "<group>"; };
 		39CE3E80C18A6D31C3128F2B503D2718 /* Pods-JWModuleDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JWModuleDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3A04B36500AF55ECCEECD653202BE576 /* Pods_JWModuleDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JWModuleDemo.framework; path = "Pods-JWModuleDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C5FD54A307D3AC02E47AEDA36DD9888 /* JWNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JWNetworking.modulemap; sourceTree = "<group>"; };
-		67AC45F5ED453EA8FDE499DA7BA22BC8 /* JWNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JWNetworking-Info.plist"; sourceTree = "<group>"; };
-		821064EBB53DE1095022F9E7AFD4D99D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		8BD8EDC3C31CCBC341F5A3CD9CEC144D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		93C42C4E6824E4D652CABA79079340DF /* JWNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JWNetworking-dummy.m"; sourceTree = "<group>"; };
+		4422CD5D781BE3B67503376D268FC52D /* JWLogingModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWLogingModule-umbrella.h"; sourceTree = "<group>"; };
+		506E7CA2B8A26A7BCF12B9C2612F4DB5 /* JWLogingModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JWLogingModule.modulemap; sourceTree = "<group>"; };
+		61C367B090DC613715D8CDED535FC3B1 /* TestClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestClass.swift; path = JWLogingModule/Classes/TestClass.swift; sourceTree = "<group>"; };
+		6EEB85267A1B79BE845DA6782AECE3A8 /* Pods_JWModuleDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JWModuleDemo.framework; path = "Pods-JWModuleDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B7DE4B1298B038AEE77B32AC8998B5 /* JWLogingModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWLogingModule-prefix.pch"; sourceTree = "<group>"; };
+		96D5B407830AE54352A1E7DDC6D31A76 /* JWLogingModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWLogingModule.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E8FF10CE4C6DB3D5B708274E8605084 /* Pods-JWModuleDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JWModuleDemo-umbrella.h"; sourceTree = "<group>"; };
+		B1DDD95E8DE397A265FEB2FF198AA9C3 /* JWLogingModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JWLogingModule-Info.plist"; sourceTree = "<group>"; };
 		BAFB3C548A9666B5EE3CEF9820CDCF36 /* Pods-JWModuleDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JWModuleDemo.modulemap"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CC6A1FCB52FC1A91952C8E46CD4E2081 /* JWNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWNetworking-prefix.pch"; sourceTree = "<group>"; };
 		CF153CCA3BB6EB4B7D70A9D941715160 /* Pods-JWModuleDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWModuleDemo-Info.plist"; sourceTree = "<group>"; };
-		DC61A4DA097651D7C4D0BE20C1B8F9B3 /* JWNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JWNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DCCDC4859597F912422898D036181B60 /* Pods-JWModuleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWModuleDemo.release.xcconfig"; sourceTree = "<group>"; };
-		EE8DB18B1ED5049ACC655C41421E74E6 /* JWNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWNetworking.xcconfig; sourceTree = "<group>"; };
-		FDFB383BC25AFD81328AA3AE3FA93093 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JWNetworking/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		E495264068A56FCFC0DC4D5BDED46946 /* JWLogingModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JWLogingModule-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9CDEF9444F2E45C17C0482E0F30A9693 /* Frameworks */ = {
+		3B19ED3128F50D4CF22ABADB4B11D334 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				977A8729FD2C6950AE46D8D0056AA41D /* Foundation.framework in Frameworks */,
+				A2BC23F365CF80F77433FA7DE90F181A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE3BB70E2DE910E10049605E4FE9553B /* Frameworks */ = {
+		748DFA8AC35BE12C421717D03B7BB356 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				403EC81BBDF2C859655DA960FB574B03 /* Foundation.framework in Frameworks */,
+				648F3B60B7B1671826150E313F4803E6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07FE752983DABFC96DE25A663AF96683 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				DC61A4DA097651D7C4D0BE20C1B8F9B3 /* JWNetworking.podspec */,
-				8BD8EDC3C31CCBC341F5A3CD9CEC144D /* LICENSE */,
-				821064EBB53DE1095022F9E7AFD4D99D /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		0AD66A4BC5E3BBFC11EA8F0655975725 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				12FA7776B7707D3BAB0FEB2FC5B69ED4 /* Pods-JWModuleDemo */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0D323E665A726B2433D6800354C92A9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B2EA1A5D8CDA25BF16739DC87F3A058 /* JWLogingModule.framework */,
+				6EEB85267A1B79BE845DA6782AECE3A8 /* Pods_JWModuleDemo.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		12FA7776B7707D3BAB0FEB2FC5B69ED4 /* Pods-JWModuleDemo */ = {
@@ -107,23 +105,23 @@
 			path = "Target Support Files/Pods-JWModuleDemo";
 			sourceTree = "<group>";
 		};
-		158F2E1B274B75231E4E77F77E09289C /* JWNetworking */ = {
+		2BE3C31FD61821944973B1429D2078E5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FDFB383BC25AFD81328AA3AE3FA93093 /* ReplaceMe.swift */,
-				07FE752983DABFC96DE25A663AF96683 /* Pod */,
-				E33365B375F2BD2D31AE588B6A47F3BC /* Support Files */,
-			);
-			name = JWNetworking;
-			path = ../../Lib/JWNetworking;
-			sourceTree = "<group>";
-		};
-		4C11A5805DB23C312DD3A46E0FE1529C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				158F2E1B274B75231E4E77F77E09289C /* JWNetworking */,
+				5F32B344F84DB54D465D6E7862657DBE /* JWLogingModule */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5F32B344F84DB54D465D6E7862657DBE /* JWLogingModule */ = {
+			isa = PBXGroup;
+			children = (
+				61C367B090DC613715D8CDED535FC3B1 /* TestClass.swift */,
+				A8C99EBD8F8BA0E2D3EDAA4453605ADE /* Pod */,
+				C5FA9C45D472B3A4387790707C4F355A /* Support Files */,
+			);
+			name = JWLogingModule;
+			path = ../../Lib/JWLogingModule;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -134,22 +132,36 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		BBBBB81B28FC4C308AC795953A5BAA4E /* Products */ = {
+		A8C99EBD8F8BA0E2D3EDAA4453605ADE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				27361A1584639BFB74BF554CC244641F /* JWNetworking.framework */,
-				3A04B36500AF55ECCEECD653202BE576 /* Pods_JWModuleDemo.framework */,
+				2B5E59191CFE9C0BDBCF0A0E623524C2 /* FILE_LICENSE */,
+				0922FEDDB6595523315C92407400B577 /* JWLogingModule.podspec */,
 			);
-			name = Products;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C5FA9C45D472B3A4387790707C4F355A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				506E7CA2B8A26A7BCF12B9C2612F4DB5 /* JWLogingModule.modulemap */,
+				96D5B407830AE54352A1E7DDC6D31A76 /* JWLogingModule.xcconfig */,
+				E495264068A56FCFC0DC4D5BDED46946 /* JWLogingModule-dummy.m */,
+				B1DDD95E8DE397A265FEB2FF198AA9C3 /* JWLogingModule-Info.plist */,
+				76B7DE4B1298B038AEE77B32AC8998B5 /* JWLogingModule-prefix.pch */,
+				4422CD5D781BE3B67503376D268FC52D /* JWLogingModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../JWModuleDemo/Pods/Target Support Files/JWLogingModule";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4C11A5805DB23C312DD3A46E0FE1529C /* Development Pods */,
+				2BE3C31FD61821944973B1429D2078E5 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				BBBBB81B28FC4C308AC795953A5BAA4E /* Products */,
+				0D323E665A726B2433D6800354C92A9F /* Products */,
 				0AD66A4BC5E3BBFC11EA8F0655975725 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -162,77 +174,63 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E33365B375F2BD2D31AE588B6A47F3BC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5C5FD54A307D3AC02E47AEDA36DD9888 /* JWNetworking.modulemap */,
-				EE8DB18B1ED5049ACC655C41421E74E6 /* JWNetworking.xcconfig */,
-				93C42C4E6824E4D652CABA79079340DF /* JWNetworking-dummy.m */,
-				67AC45F5ED453EA8FDE499DA7BA22BC8 /* JWNetworking-Info.plist */,
-				CC6A1FCB52FC1A91952C8E46CD4E2081 /* JWNetworking-prefix.pch */,
-				0B77BCB09ACC65EA0E8CEA76DCE3E6AD /* JWNetworking-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../../JWModuleDemo/Pods/Target Support Files/JWNetworking";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		751D395B77E1B4F1923BA280DA578B72 /* Headers */ = {
+		6E2020651E95A5B0D2A59C4B264D9E9D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66B05CDBF86426502BB349F3981C2977 /* Pods-JWModuleDemo-umbrella.h in Headers */,
+				12714BD6951A907E27549F1E3C6D2C6B /* Pods-JWModuleDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9F2F59171F89D79997C91EA1DAB1063 /* Headers */ = {
+		CBE23133CC1CE39850622ABA73F8895E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E80764F9B6500EE6A6E6CC36E8DE759 /* JWNetworking-umbrella.h in Headers */,
+				A72D1C0F89DB0E86B29153DF2FECA924 /* JWLogingModule-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		083B95DE1EFAE7604138E85FF74EBFCB /* Pods-JWModuleDemo */ = {
+		02F382F6B92C0F4AD30772ABA8A069E3 /* JWLogingModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9298D1E514FDA94EA5A42902CFF80D80 /* Build configuration list for PBXNativeTarget "Pods-JWModuleDemo" */;
+			buildConfigurationList = 043A6BA861044D54A657FCE6097730BF /* Build configuration list for PBXNativeTarget "JWLogingModule" */;
 			buildPhases = (
-				751D395B77E1B4F1923BA280DA578B72 /* Headers */,
-				0E6CBB6AA889FC3A1BCBCC35A68BA525 /* Sources */,
-				9CDEF9444F2E45C17C0482E0F30A9693 /* Frameworks */,
-				FE754B3BBC08DAD27DD4D2277FB232A5 /* Resources */,
+				CBE23133CC1CE39850622ABA73F8895E /* Headers */,
+				90959DA6DC5B504ACEC418B456354B9C /* Sources */,
+				748DFA8AC35BE12C421717D03B7BB356 /* Frameworks */,
+				05A38142D91D80F00DED60981D63688A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				10BFBDE4D8564CC598E511EA678BBAFF /* PBXTargetDependency */,
+			);
+			name = JWLogingModule;
+			productName = JWLogingModule;
+			productReference = 0B2EA1A5D8CDA25BF16739DC87F3A058 /* JWLogingModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3420098844109AEEB6026995DD291AC9 /* Pods-JWModuleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F03A4A0D8FD8D6034D9E179E3BF47D /* Build configuration list for PBXNativeTarget "Pods-JWModuleDemo" */;
+			buildPhases = (
+				6E2020651E95A5B0D2A59C4B264D9E9D /* Headers */,
+				AFE75FE60079ED6DCDF6DBD54900310C /* Sources */,
+				3B19ED3128F50D4CF22ABADB4B11D334 /* Frameworks */,
+				6EFA9C9AD200BAC629DED8BD09D66BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2836A5E963DE8826C01551841B799851 /* PBXTargetDependency */,
 			);
 			name = "Pods-JWModuleDemo";
 			productName = "Pods-JWModuleDemo";
-			productReference = 3A04B36500AF55ECCEECD653202BE576 /* Pods_JWModuleDemo.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6BDBC6F06E006E79239B115F654C0C9A /* JWNetworking */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BC782B88B051F93016C3F43786AC2E1B /* Build configuration list for PBXNativeTarget "JWNetworking" */;
-			buildPhases = (
-				C9F2F59171F89D79997C91EA1DAB1063 /* Headers */,
-				508B132AE2417491A39EA56CBD8BA2FB /* Sources */,
-				EE3BB70E2DE910E10049605E4FE9553B /* Frameworks */,
-				BAED0642ACE4B3A2FBD74C9CF5720664 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = JWNetworking;
-			productName = JWNetworking;
-			productReference = 27361A1584639BFB74BF554CC244641F /* JWNetworking.framework */;
+			productReference = 6EEB85267A1B79BE845DA6782AECE3A8 /* Pods_JWModuleDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -252,25 +250,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = BBBBB81B28FC4C308AC795953A5BAA4E /* Products */;
+			productRefGroup = 0D323E665A726B2433D6800354C92A9F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6BDBC6F06E006E79239B115F654C0C9A /* JWNetworking */,
-				083B95DE1EFAE7604138E85FF74EBFCB /* Pods-JWModuleDemo */,
+				02F382F6B92C0F4AD30772ABA8A069E3 /* JWLogingModule */,
+				3420098844109AEEB6026995DD291AC9 /* Pods-JWModuleDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BAED0642ACE4B3A2FBD74C9CF5720664 /* Resources */ = {
+		05A38142D91D80F00DED60981D63688A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE754B3BBC08DAD27DD4D2277FB232A5 /* Resources */ = {
+		6EFA9C9AD200BAC629DED8BD09D66BC2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,38 +278,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0E6CBB6AA889FC3A1BCBCC35A68BA525 /* Sources */ = {
+		90959DA6DC5B504ACEC418B456354B9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66A436EB898F9B7BA7803A028A7759D4 /* Pods-JWModuleDemo-dummy.m in Sources */,
+				CBDD32FA400BC8046EA1D40A0C2F9802 /* JWLogingModule-dummy.m in Sources */,
+				898EA46A2958FCF104B3DE2D7D915FFD /* TestClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		508B132AE2417491A39EA56CBD8BA2FB /* Sources */ = {
+		AFE75FE60079ED6DCDF6DBD54900310C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F63F5EB5A18EA6ACEF2306C5A7C256B7 /* JWNetworking-dummy.m in Sources */,
-				CB9133D8685B59B941D0445279A598AD /* ReplaceMe.swift in Sources */,
+				4F4F280F057F8514B95CD5B91252D4CE /* Pods-JWModuleDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		10BFBDE4D8564CC598E511EA678BBAFF /* PBXTargetDependency */ = {
+		2836A5E963DE8826C01551841B799851 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = JWNetworking;
-			target = 6BDBC6F06E006E79239B115F654C0C9A /* JWNetworking */;
-			targetProxy = 402B04F28A6177625E3808840B5BDB9B /* PBXContainerItemProxy */;
+			name = JWLogingModule;
+			target = 02F382F6B92C0F4AD30772ABA8A069E3 /* JWLogingModule */;
+			targetProxy = FE1CA3D22BF93D9B9C60CAEFB5D79AED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0DBF2E8550E8810E3D373104FDC0CB92 /* Release */ = {
+		74AD32CA301E4D15AD67B88D410D7A7F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE8DB18B1ED5049ACC655C41421E74E6 /* JWNetworking.xcconfig */;
+			baseConfigurationReference = 96D5B407830AE54352A1E7DDC6D31A76 /* JWLogingModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -322,131 +320,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JWNetworking/JWNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JWNetworking/JWNetworking-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JWLogingModule/JWLogingModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JWLogingModule/JWLogingModule-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/JWNetworking/JWNetworking.modulemap";
-				PRODUCT_MODULE_NAME = JWNetworking;
-				PRODUCT_NAME = JWNetworking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		50BAE88B5862F4DFB8604D9349DB5349 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCCDC4859597F912422898D036181B60 /* Pods-JWModuleDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JWModuleDemo/Pods-JWModuleDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JWModuleDemo/Pods-JWModuleDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		518E892797E30EA5D872E2A3AD430C09 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FA0C79AF91430675D6FB2AA443E2BD8 /* Pods-JWModuleDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JWModuleDemo/Pods-JWModuleDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JWModuleDemo/Pods-JWModuleDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7B9B837457FE2E55DC071ACD0CA8CDFD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE8DB18B1ED5049ACC655C41421E74E6 /* JWNetworking.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JWNetworking/JWNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JWNetworking/JWNetworking-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/JWNetworking/JWNetworking.modulemap";
-				PRODUCT_MODULE_NAME = JWNetworking;
-				PRODUCT_NAME = JWNetworking;
+				MODULEMAP_FILE = "Target Support Files/JWLogingModule/JWLogingModule.modulemap";
+				PRODUCT_MODULE_NAME = JWLogingModule;
+				PRODUCT_NAME = JWLogingModule;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -517,6 +402,119 @@
 			};
 			name = Release;
 		};
+		955ECB59176BE60EF589D819BCB6B7B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA0C79AF91430675D6FB2AA443E2BD8 /* Pods-JWModuleDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JWModuleDemo/Pods-JWModuleDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JWModuleDemo/Pods-JWModuleDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D2864C0E50E975D0ECA026425795502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96D5B407830AE54352A1E7DDC6D31A76 /* JWLogingModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JWLogingModule/JWLogingModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JWLogingModule/JWLogingModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JWLogingModule/JWLogingModule.modulemap";
+				PRODUCT_MODULE_NAME = JWLogingModule;
+				PRODUCT_NAME = JWLogingModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0B63F17CDAA2637CCBDA130264201CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCCDC4859597F912422898D036181B60 /* Pods-JWModuleDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JWModuleDemo/Pods-JWModuleDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JWModuleDemo/Pods-JWModuleDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -584,29 +582,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		043A6BA861044D54A657FCE6097730BF /* Build configuration list for PBXNativeTarget "JWLogingModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AD32CA301E4D15AD67B88D410D7A7F /* Debug */,
+				9D2864C0E50E975D0ECA026425795502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37F03A4A0D8FD8D6034D9E179E3BF47D /* Build configuration list for PBXNativeTarget "Pods-JWModuleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955ECB59176BE60EF589D819BCB6B7B4 /* Debug */,
+				D0B63F17CDAA2637CCBDA130264201CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
 				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9298D1E514FDA94EA5A42902CFF80D80 /* Build configuration list for PBXNativeTarget "Pods-JWModuleDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				518E892797E30EA5D872E2A3AD430C09 /* Debug */,
-				50BAE88B5862F4DFB8604D9349DB5349 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BC782B88B051F93016C3F43786AC2E1B /* Build configuration list for PBXNativeTarget "JWNetworking" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7B9B837457FE2E55DC071ACD0CA8CDFD /* Debug */,
-				0DBF2E8550E8810E3D373104FDC0CB92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

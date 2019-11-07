@@ -6,6 +6,6 @@ target 'JWModuleDemo' do
   use_frameworks!
 
   # Pods for JWModuleDemo
-  pod 'JWNetworking', :path => '../Lib/JWNetworking'
+  pod 'JWLogingModule', :path => '../Lib/JWLogingModule'
 
 end

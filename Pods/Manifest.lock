@@ -1,16 +1,16 @@
 PODS:
-  - JWNetworking (0.1.0)
+  - JWLogingModule (0.0.3)
 
 DEPENDENCIES:
-  - JWNetworking (from `../Lib/JWNetworking`)
+  - JWLogingModule (from `../Lib/JWLogingModule`)
 
 EXTERNAL SOURCES:
-  JWNetworking:
-    :path: "../Lib/JWNetworking"
+  JWLogingModule:
+    :path: "../Lib/JWLogingModule"
 
 SPEC CHECKSUMS:
-  JWNetworking: 38b2f0405ef6e11cfa5668d41726cbc2a4fd77ee
+  JWLogingModule: 0e9d7d9fa3682668a9105e42715213b7de13fa29
 
-PODFILE CHECKSUM: 11b5affbabeb53c2edde0f93a99ed9a2a1d15e43
+PODFILE CHECKSUM: a95e34518a4b93989da855c01e39caec99d31723
 
 COCOAPODS: 1.6.1
